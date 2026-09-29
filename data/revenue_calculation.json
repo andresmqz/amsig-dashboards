@@ -1,0 +1,24 @@
+{
+  "calculated_at": "2026-09-29T10:41:10.391724+00:00",
+  "inputs": {
+    "supply_fetched_at": "2026-09-29T10:41:10.113632+00:00",
+    "yield_fetched_at": "2026-09-29T10:41:10.391075+00:00",
+    "yield_observation_date": "2026-09-25",
+    "USDT_reserves_as_of": "2026-06-30",
+    "USDC_reserves_as_of": "2026-06-30",
+    "USDe_reserves_as_of": "2026-06-30"
+  },
+  "USDT": {
+    "gross_interest": 5741894254.822811
+  },
+  "USDC": {
+    "reserve_income": 2619539366.771512,
+    "coinbase_share": 1145644561.9523907,
+    "circle_retained": 1473894804.8191214
+  },
+  "USDe": {
+    "reserve_income": 69400966.16666667,
+    "ethena_share": 196966.16666666666,
+    "passed_to_holders": 69204000.0
+  }
+}
