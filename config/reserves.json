@@ -1,0 +1,72 @@
+{
+  "USDT": {
+  "as_of": "2026-06-30",
+  "source": "Tether Q2 2026 Attestation (BDO Italia)",
+  "total_assets_usd": 187751426411,
+  "total_liabilities_usd": 183641897215,
+  "tokens_issued_usd": 183622105630,
+  "equity_usd": 4109529196,
+  "assets": {
+    "us_treasury_bills_usd": 114960963604,
+    "overnight_reverse_repo_usd": 18625552412,
+    "term_reverse_repo_usd": 6993428950,
+    "non_us_treasury_bills_usd": 22374689,
+    "cash_and_bank_deposits_usd": 40307440,
+    "corporate_bonds_usd": 8711171,
+    "precious_metals_usd": 18838357171,
+    "bitcoin_usd": 5801630681,
+    "public_equities_usd": 3761438892,
+    "other_investments_usd": 5244911675,
+    "secured_loans_usd": 13453749726
+  },
+  "revenue_sharing_partner": null,
+  "previous_quarter": {
+    "as_of": "2026-03-31",
+    "source": "Tether Q1 2026 Attestation (BDO Italia), via Amsig Labs Stablecoin Revenue report",
+    "total_assets_usd": 191700000000,
+    "tokens_issued_usd": 183400000000,
+    "equity_usd": 8232209778,
+    "net_profit_q_usd": 1040000000
+  },
+  "notes": "No distribution partner; issuer retains 100% of reserve yield."
+  },
+  "USDC": {
+  "as_of": "2026-06-30",
+  "source": "Circle Q2 2026 Results (circle.com/pressroom), 5 Aug 2026",
+  "usdc_in_circulation_eop_usd": 73300000000,
+  "total_revenue_and_reserve_income_usd": 701000000,
+  "reserve_income_usd": 668000000,
+  "other_revenue_usd": 34000000,
+  "total_distribution_transaction_other_costs_usd": -412000000,
+  "of_which_paid_to_coinbase_usd": 292147000,
+  "net_income_usd": 48000000,
+  "reserve_return_rate_pct": 0.035,
+  "rldc_margin_pct": 0.41,
+  "reserve_fund_pct": 0.80,
+  "cash_at_banks_pct": 0.20,
+  "revenue_sharing_partner": "Coinbase",
+  "previous_quarter": {
+    "as_of": "2026-03-31",
+    "source": "Circle Q1 2026 Financial Statement; Coinbase Q1 2026 Shareholder Letter",
+    "total_revenue_and_reserve_income_usd": 694000000,
+    "reserve_income_usd": 652500000,
+    "distribution_transaction_other_costs_usd": -407000000,
+    "of_which_paid_to_coinbase_usd": 305000000,
+    "net_income_usd": 55000000,
+    "reserve_return_rate_pct": 0.035
+  },
+  "notes": "Coinbase Q2 2026 10-Q reports 'stablecoin revenue' of $292.147M for the quarter (Coinbase's own revenue line, not a Circle-disclosed payment figure — same basis as the $305M cited for Q1). Circle's own release does not break out the Coinbase-specific dollar amount."
+},
+  "USDe": {
+    "as_of": "2026-06-30",
+    "source": "DeFiLlama (Ethena USDe page), Amsig Labs Stablecoin Revenue report",
+    "revenue_30d_usd": 16189,
+    "revenue_30d_as_of": "2026-09-29",
+    "susde_staked_usd": 1580000000,
+    "susde_staked_as_of": "2026-07-17",
+    "susde_apy_pct": 0.0438,
+    "susde_apy_as_of": "2026-07-17",
+    "issuer_retained_share_pct": 0.02,
+    "notes": "DeFiLlama distinguishes 'Fees' (gross yield across all backing: staking rewards + yield distribution + mint fees + extra fees) from 'Revenue' (mint fees + staking-rewards portion routed to Ethena's Reserve Fund). Earlier drafts used Fees to estimate both Ethena's cut and staker payout; this was wrong on both counts, since Fees is neither. Revenue is used directly as Ethena's retained amount. Staker payout is calculated from staked sUSDe supply x APY instead, since Fees does not represent staker payout. susde_staked_usd and susde_apy_pct are snapshot figures from the report (17 Jul 2026), not live data, and this section does not scale with live USDe supply."
+  }
+}
