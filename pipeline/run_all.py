@@ -4,16 +4,19 @@ import calculate_revenue
 import append_history
 
 def main():
-    print("1/4 Fetching supply...")
+    print("1/5 Fetching supply...")
     fetch_supply.main()
 
-    print("2/4 Fetching T-Bill yield...")
+    print("2/5 Fetching T-Bill yield...")
     fetch_yield.main()
 
-    print("3/4 Calculating revenue estimates...")
+    print("3/5 Reading sUSDe on-chain...")
+    fetch_susde.main()
+    
+    print("4/5 Calculating revenue estimates...")
     calculate_revenue.main()
 
-    print("4/4 Appending to history...")
+    print("5/5 Appending to history...")
     append_history.main()
 
     print("Pipeline complete.")
