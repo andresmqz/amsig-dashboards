@@ -1,0 +1,2 @@
+date,source,calculated_at,usdt_supply,usdc_supply,usde_supply,tbill_rate_pct,tbill_date,usdt_gross_interest,usdc_reserve_income,usdc_coinbase_share,usdc_circle_retained,usde_reserve_income,usde_ethena_share,usde_passed_to_holders
+2026-09-30,daily,2026-09-30T09:51:16.559237+00:00,183772695412.14688,74505782919.34169,4902961957.682414,4.1,2026-09-28,5769422772.914232,2607702402.1769595,1140467715.1029823,1467234687.0739772,69400966.16666667,196966.16666666666,69204000.0
