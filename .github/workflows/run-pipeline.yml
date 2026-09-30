@@ -32,4 +32,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -f data/*.json data/history/*.csv
           git diff --staged --quiet || git commit -m "Update pipeline data $(date -u +%Y-%m-%d)"
+          git pull --rebase
           git push
