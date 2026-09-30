@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install dependencies
-        run: pip install requests python-dotenv
+        run: pip install -r requirements.txt
       - name: Ensure data directory exists
         run: mkdir -p data
       - name: Run pipeline

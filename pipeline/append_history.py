@@ -14,6 +14,8 @@ COLUMNS = [
     "usdt_gross_interest",
     "usdc_reserve_income", "usdc_coinbase_share", "usdc_circle_retained",
     "usde_reserve_income", "usde_ethena_share", "usde_passed_to_holders",
+    "usde_reserve_income", "usde_ethena_share", "usde_passed_to_holders",
+    "susde_staked", "susde_exchange_rate", "susde_apy_7d",
 ]
 
 
@@ -26,6 +28,7 @@ def build_row():
     supply = load_json("supply.json")
     rate = load_json("yield.json")
     rev = load_json("revenue_calculation.json")
+    susde = load_json("susde.json")
     return {
         "date": rev["calculated_at"][:10],
         "source": "daily",
@@ -42,6 +45,9 @@ def build_row():
         "usde_reserve_income": rev["USDe"]["reserve_income"],
         "usde_ethena_share": rev["USDe"]["ethena_share"],
         "usde_passed_to_holders": rev["USDe"]["passed_to_holders"],
+        "susde_staked": susde["staked_usde"],
+        "susde_exchange_rate": susde["exchange_rate"],
+        "susde_apy_7d": susde["apy_7d"] if susde["apy_7d"] is not None else "",
     }
 
 
