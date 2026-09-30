@@ -1,5 +1,6 @@
 import fetch_supply
 import fetch_yield
+import fetch_susde
 import calculate_revenue
 import append_history
 
@@ -12,7 +13,7 @@ def main():
 
     print("3/5 Reading sUSDe on-chain...")
     fetch_susde.main()
-    
+
     print("4/5 Calculating revenue estimates...")
     calculate_revenue.main()
 
