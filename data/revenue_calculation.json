@@ -1,20 +1,20 @@
 {
-  "calculated_at": "2026-09-29T10:41:10.391724+00:00",
+  "calculated_at": "2026-09-30T10:02:18.798817+00:00",
   "inputs": {
-    "supply_fetched_at": "2026-09-29T10:41:10.113632+00:00",
-    "yield_fetched_at": "2026-09-29T10:41:10.391075+00:00",
-    "yield_observation_date": "2026-09-25",
+    "supply_fetched_at": "2026-09-30T10:02:04.332994+00:00",
+    "yield_fetched_at": "2026-09-30T10:02:18.798246+00:00",
+    "yield_observation_date": "2026-09-28",
     "USDT_reserves_as_of": "2026-06-30",
     "USDC_reserves_as_of": "2026-06-30",
     "USDe_reserves_as_of": "2026-06-30"
   },
   "USDT": {
-    "gross_interest": 5741894254.822811
+    "gross_interest": 5769422772.914232
   },
   "USDC": {
-    "reserve_income": 2619539366.771512,
-    "coinbase_share": 1145644561.9523907,
-    "circle_retained": 1473894804.8191214
+    "reserve_income": 2607702402.1769595,
+    "coinbase_share": 1140467715.1029823,
+    "circle_retained": 1467234687.0739772
   },
   "USDe": {
     "reserve_income": 69400966.16666667,
