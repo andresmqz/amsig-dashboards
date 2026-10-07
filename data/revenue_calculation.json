@@ -1,32 +1,32 @@
 {
-  "calculated_at": "2026-10-06T12:01:14.054828+00:00",
+  "calculated_at": "2026-10-07T11:46:27.262257+00:00",
   "inputs": {
-    "supply_fetched_at": "2026-10-06T12:01:09.471754+00:00",
-    "yield_fetched_at": "2026-10-06T12:01:13.467902+00:00",
-    "yield_observation_date": "2026-10-02",
-    "tbill_spot_pct": 0.0401,
-    "tbill_rate_used_pct": 0.039810000000000005,
+    "supply_fetched_at": "2026-10-07T11:46:26.356842+00:00",
+    "yield_fetched_at": "2026-10-07T11:46:26.600565+00:00",
+    "yield_observation_date": "2026-10-05",
+    "tbill_spot_pct": 0.0405,
+    "tbill_rate_used_pct": 0.03988999999999999,
     "tbill_rate_basis": "trailing_30d_avg",
     "USDT_reserves_as_of": "2026-06-30",
     "USDC_reserves_as_of": "2026-06-30",
     "USDe_reserves_as_of": "2026-06-30",
-    "susde_fetched_at": "2026-10-06T12:01:14.052812+00:00"
+    "susde_fetched_at": "2026-10-07T11:46:27.259695+00:00"
   },
   "USDT": {
-    "gross_interest": 5613409763.900484
+    "gross_interest": 5629083389.886188
   },
   "USDC": {
-    "reserve_income": 2599553829.2007027,
-    "coinbase_share": 1136903970.8675115,
-    "circle_retained": 1462649858.3331912
+    "reserve_income": 2595837375.272363,
+    "coinbase_share": 1135278595.319903,
+    "circle_retained": 1460558779.9524603
   },
   "USDe": {
-    "reserve_income": 54552380.65575343,
+    "reserve_income": 61908498.221368514,
     "ethena_share": 196966.16666666666,
-    "passed_to_holders": 54355414.48908677,
-    "susde_staked": 1240991198.3809764,
-    "staked_share_of_supply": 0.24983773409728582,
-    "apy_used": 0.0438,
-    "apy_source": "config_snapshot"
+    "passed_to_holders": 61711532.05470185,
+    "susde_staked": 1237252880.4058833,
+    "staked_share_of_supply": 0.24957579822664336,
+    "apy_used": 0.04987786493126389,
+    "apy_source": "onchain_7d"
   }
 }
